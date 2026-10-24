@@ -1,0 +1,9 @@
+{
+  "review_scope": "Evidence and configuration underlying the authored hypothesis report; not a clinician review or efficacy validation.",
+  "reviewed_sha256": {
+    "data/sources.json": "2bcb28eb0c0b0df52d7c85f55107ecb7cb22a82af5df8990277b3652cb271eba",
+    "data/drugs.json": "afb1a2b2ed753170d1a1b91de0a9efb80f6f7028b5c197c3cb77c94dfc67afbd",
+    "data/claims.json": "ada207c274e8df89725689688f03ca8f39a98e9f69e331f50674f06a8afbc7da",
+    "config/prioritization.json": "33bf3c4347475f587c4e0490d51e06aa6f17694723e24aa7b26e2acec8af63c6"
+  }
+}

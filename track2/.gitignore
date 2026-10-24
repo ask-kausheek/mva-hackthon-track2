@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.zip
+private/
+*.vcf
+*.vcf.gz
+*.tbi
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.parquet

@@ -1,0 +1,9 @@
+{
+  "V_CHECKPOINT_WEAKENING": "Shortens mitosis, inhibits spindle-checkpoint kinases (for example AURKB, PLK1, TTK/MPS1, CENPE) or is a microtubule poison offered as rescue; worsens an already weakened checkpoint.",
+  "V_NO_APPROVED_PRODUCT": "No approved single-ingredient product acts on the node; only tool compounds, supplements or unapproved agents exist.",
+  "V_PEDIATRIC_TISSUE_HARM": "Plausible harm to growth, kidney, bone marrow, muscle or hearing in a child who already has growth failure or organ involvement.",
+  "V_CHEMO_INTERACTION": "Conflicts with anticipated cancer therapy: CYP3A4 clash with vincristine, overlapping marrow or kidney toxicity, or a documented adverse reaction to a standard-regimen agent.",
+  "V_DIRECTION_UNCERTAIN": "Could lower or degrade the causal protein, or the direction of effect on its function is unestablished or confounded.",
+  "V_NOT_APPROVED": "Investigational, withdrawn or unverified approval status; approval is not backed by a regulatory source.",
+  "V_TRANSCRIPT_FATE_UNRESOLVED": "Strategy needs a transcript or protein the evidence says is destroyed (for example readthrough when the transcript is NMD-competent) or whose fate is unmeasured."
+}

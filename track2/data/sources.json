@@ -1,0 +1,58 @@
+[
+  {
+    "source_id": "bubr1_mva_mechanisms_2010",
+    "title": "Molecular Causes for BUBR1 Dysfunction in the Human Cancer Predisposition Syndrome Mosaic Variegated Aneuploidy",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2887387/",
+    "kind": "primary",
+    "study_id": "10.1158/0008-5472.CAN-09-4319",
+    "accessed_on": "2026-09-05"
+  },
+  {
+    "source_id": "sirt2_bubr1_nad_2014",
+    "title": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/",
+    "kind": "primary",
+    "study_id": "10.15252/embj.201386907",
+    "accessed_on": "2026-09-05"
+  },
+  {
+    "source_id": "hsp_sphingolipidoses_2016",
+    "title": "Heat Shock Protein-based therapy as a potential candidate for treating sphingolipidoses",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6821533/",
+    "kind": "primary",
+    "study_id": "10.1126/scitranslmed.aad9823",
+    "accessed_on": "2026-09-05"
+  },
+  {
+    "source_id": "niacin_human_nad_myopathy_2020",
+    "title": "Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy",
+    "url": "https://europepmc.org/article/MED/32386566",
+    "kind": "primary",
+    "study_id": "10.1016/j.cmet.2020.04.008",
+    "accessed_on": "2026-09-05"
+  },
+  {
+    "source_id": "arimoclomol_miplyffa_label",
+    "title": "MIPLYFFA (arimoclomol) capsules: US prescribing information",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc",
+    "kind": "regulatory",
+    "study_id": "5feffc0e-453d-47fa-91dd-38d4952309bc",
+    "accessed_on": "2026-09-05"
+  },
+  {
+    "source_id": "niacin_extended_release_label",
+    "title": "Niacin extended-release tablets: US prescribing information",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=dd60fe81-3d54-4a29-9502-601be89c575e",
+    "kind": "regulatory",
+    "study_id": "dd60fe81-3d54-4a29-9502-601be89c575e",
+    "accessed_on": "2026-09-05"
+  },
+  {
+    "source_id": "gentamicin_injection_label",
+    "title": "Gentamicin Injection, USP: US prescribing information",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=84f5c763-1cd3-4d85-9afb-934db8666fbf",
+    "kind": "regulatory",
+    "study_id": "84f5c763-1cd3-4d85-9afb-934db8666fbf",
+    "accessed_on": "2026-09-05"
+  }
+]

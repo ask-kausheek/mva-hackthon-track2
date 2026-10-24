@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "c057862d598f59dcc6d2223c88a79cd46c7f532e3bd68e625aefab961ad6ed77",
+  "files_sha256": {
+    "config/prioritization.json": "33bf3c4347475f587c4e0490d51e06aa6f17694723e24aa7b26e2acec8af63c6",
+    "data/claims.json": "ada207c274e8df89725689688f03ca8f39a98e9f69e331f50674f06a8afbc7da",
+    "data/drugs.json": "afb1a2b2ed753170d1a1b91de0a9efb80f6f7028b5c197c3cb77c94dfc67afbd",
+    "data/sources.json": "2bcb28eb0c0b0df52d7c85f55107ecb7cb22a82af5df8990277b3652cb271eba",
+    "mva_track2/__init__.py": "9b2fe0450b0d8ebc8403f14bdce196bc95f55c7c5760c3206a45f5388c3ca4a9",
+    "mva_track2/__main__.py": "7ef2ca99f6ce7e0118bc43966bb432ec949724c010aacdf56243a6aa6f49e478",
+    "mva_track2/package.py": "590dedf68ffe1a4a43fc95f1bbcf1ae2ab599a3ba96a1ec964a209b48da08e45",
+    "mva_track2/pipeline.py": "2f09204884444cf4833e7159641efffb726290662bb01ffed826642c5cc9b38f",
+    "mva_track2/promptcheck.py": "762a1be6d87b58fc9a32d588e832672343c6bbebd35b1a6cc9ba22b49ff1175f",
+    "mva_track2/submission.py": "aa3ce4833d8d2ecbe638c2442138a5c976fa0a8070e0a42a09eaadcf4f9c2736"
+  },
+  "profiles": {
+    "baseline": {
+      "bridge": 0.5,
+      "functional_rescue": 0.5
+    },
+    "bridge_emphasis": {
+      "bridge": 0.8,
+      "functional_rescue": 0.2
+    },
+    "rescue_emphasis": {
+      "bridge": 0.2,
+      "functional_rescue": 0.8
+    }
+  },
+  "counts": {
+    "drugs": 3,
+    "sources": 7,
+    "claims": 20,
+    "sensitivity_rows": 45
+  },
+  "outputs": [
+    "ranked_hypotheses.csv",
+    "evidence_audit.csv",
+    "sensitivity.csv",
+    "research_report.md",
+    "run_manifest.json"
+  ],
+  "interpretation": "Research-only evidence index; not efficacy or safety predictions."
+}

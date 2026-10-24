@@ -1,0 +1,53 @@
+[
+  {
+    "drug_id": "arimoclomol",
+    "name": "Arimoclomol",
+    "approved_indication": "US MIPLYFFA, in combination with miglustat, for neurological manifestations of Niemann-Pick disease type C in adults and pediatric patients aged 2 years and older; not an MVA indication.",
+    "approval_status": "approved",
+    "approval_source_id": "arimoclomol_miplyffa_label",
+    "mechanism_id": "conditional_chaperone_support",
+    "mechanism_claim_groups": [
+      ["other_bubr1_missense_instability"],
+      ["forced_expression_other_variant_checkpoint"]
+    ],
+    "mechanism_description": "Conditional research bridge from heat-shock protein co-induction in other disease models to stabilization of residual functional BUBR1. HSP70-centered observations do not establish enhancement of the HSP90-dependent folding reported for other BUBR1 mutants; the label states the clinical mechanism in NPC is unknown.",
+    "variant_fit": "unresolved",
+    "variant_fit_note": "Neither hypothetical allele has demonstrated arimoclomol responsiveness. The missense allele may or may not be unstable yet functional; phase, transcript annotation, protein abundance and checkpoint function remain unverified. Stabilization cannot be assumed to replace missing sequence from a truncating allele.",
+    "exposure_status": "unresolved",
+    "safety_status": "unresolved",
+    "safety_note": "Renal impairment alters exposure; OCT2 inhibition can change serum creatinine without reduced glomerular function and can affect other OCT2 substrates. Decreased weight, appetite and gastrointestinal events were reported in a population receiving concomitant miglustat. Current renal function, oncology regimen and interaction profile are unknown; no case-specific contraindication or safe MVA exposure is established."
+  },
+  {
+    "drug_id": "niacin",
+    "name": "Niacin (nicotinic acid; extended-release label reference)",
+    "approved_indication": "US prescription extended-release niacin for labeled lipid disorders, including primary hyperlipidemia and mixed dyslipidemia; not an MVA indication.",
+    "approval_status": "approved",
+    "approval_source_id": "niacin_extended_release_label",
+    "mechanism_id": "conditional_nad_sirt2_bubr1",
+    "mechanism_claim_groups": [
+      ["other_bubr1_missense_instability", "forced_expression_other_variant_checkpoint"],
+      ["sirt2_bubr1_stability_bridge"]
+    ],
+    "mechanism_description": "Conditional research chain: nicotinic-acid metabolism contributes to NAD, which may support SIRT2-dependent BUBR1 stabilization if residual protein remains functional. A separate adult mitochondrial-myopathy study reported niacin-associated NAD increases, not BUBR1 correction. Retrieved BUBR1 experiments used NMN or genetic SIRT2 manipulation, not niacin; niacin, nicotinamide and NMN are not interchangeable.",
+    "variant_fit": "unresolved",
+    "variant_fit_note": "No niacin rescue of either hypothetical allele has been demonstrated. A retained SIRT2-regulated sequence or increased BUBR1 abundance would not by itself establish correct checkpoint function, phase or transcript validity.",
+    "exposure_status": "unresolved",
+    "safety_status": "unresolved",
+    "safety_note": "The referenced label does not establish safety or effectiveness at age 16 years or younger and advises renal caution; active liver disease and certain unexplained hepatic abnormalities are contraindications. Muscle toxicity with concomitant statins is labeled, but no such concomitant treatment is assumed. The adult mitochondrial-myopathy study reported an anemia tendency in some patients, not pediatric or MVA safety. Current renal and hepatic measurements and medication list are unavailable. Formulations are not presumed interchangeable."
+  },
+  {
+    "drug_id": "gentamicin",
+    "name": "Gentamicin",
+    "approved_indication": "US injectable antibacterial for serious infections caused by susceptible bacteria; not an MVA or premature-stop-codon indication.",
+    "approval_status": "approved",
+    "approval_source_id": "gentamicin_injection_label",
+    "mechanism_id": "held_exploratory_stop_codon_readthrough",
+    "mechanism_claim_groups": [],
+    "mechanism_description": "Held exploratory premature-stop-codon readthrough hypothesis. The curated evidence provides no direct gentamicin rescue of BUB1B or the hypothetical truncating allele; transcript survival, stop context, full-length product identity and checkpoint function would all require demonstration.",
+    "variant_fit": "unresolved",
+    "variant_fit_note": "A protein-level premature-stop annotation alone does not establish a readable transcript or a functional readthrough product. The exact transcript, local stop context and nonsense-mediated decay status have not been reverified. No positive drug-specific BUB1B readthrough evidence is encoded.",
+    "exposure_status": "unresolved",
+    "safety_status": "hold",
+    "safety_note": "Manual research-triage hold, not a proven individual contraindication: the mechanism bridge is weak and the injection label carries nephrotoxicity and potentially irreversible ototoxicity warnings. Renal calcification does not establish renal failure. Current renal function, hearing baseline and potentially nephrotoxic or ototoxic oncology exposures are unknown; absence of efficacy evidence is not encoded as evidence of harm."
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "variants": [
+    {
+      "label": "p.Leu737Ter (nonsense)",
+      "effect_class": "LoF",
+      "tier": "INFERENCE",
+      "source_ids": ["bubr1_mva_mechanisms_2010"]
+    },
+    {
+      "label": "p.Asn1002Lys (kinase-domain missense)",
+      "effect_class": "unknown",
+      "tier": "HYPOTHESIS",
+      "source_ids": []
+    }
+  ],
+  "chain": [
+    {
+      "step": 1,
+      "statement": "Other BUBR1 truncations show transcript loss consistent with nonsense-mediated decay, so the nonsense allele is expected to yield little stable protein.",
+      "tier": "INFERENCE",
+      "source_ids": ["bubr1_mva_mechanisms_2010"]
+    },
+    {
+      "step": 2,
+      "statement": "Other MVA-associated BUBR1 missense mutants show reduced abundance and increased turnover, so residual-protein stability may govern the missense allele.",
+      "tier": "INFERENCE",
+      "source_ids": ["bubr1_mva_mechanisms_2010"]
+    },
+    {
+      "step": 3,
+      "statement": "Forcing two other mutants to wild-type levels restored the nocodazole checkpoint response in a replacement-cell assay, so abundance can limit function for those alleles.",
+      "tier": "FACT",
+      "source_ids": ["bubr1_mva_mechanisms_2010"]
+    },
+    {
+      "step": 4,
+      "statement": "Too little functional BUBR1 weakens the spindle checkpoint and allows chromosome mis-segregation in dividing cells.",
+      "tier": "INFERENCE",
+      "source_ids": ["bubr1_mva_mechanisms_2010"]
+    },
+    {
+      "step": 5,
+      "statement": "Whether the two alleles lie in trans is unresolved without phasing data.",
+      "tier": "HYPOTHESIS",
+      "source_ids": []
+    },
+    {
+      "step": 6,
+      "statement": "Mosaic aneuploidy contributes to the growth failure and rhabdomyosarcoma in this child.",
+      "tier": "HYPOTHESIS",
+      "source_ids": []
+    }
+  ],
+  "lesion_type": "abundance",
+  "harm_directions": [
+    "Further weakening the spindle checkpoint, for example with checkpoint-kinase inhibitors or microtubule poisons offered as rescue",
+    "Lowering residual BUBR1, since HSP90 inhibition reduced mutant BUBR1 abundance in cells",
+    "Agents that conflict with the anticipated rhabdomyosarcoma regimen"
+  ],
+  "unknowns": [
+    "Phase of the two alleles (trans or cis)",
+    "Transcript and protein level contributed by each allele in the patient's own cells",
+    "Whether the missense allele is unstable or catalytically inactive, noting BUBR1 is a pseudokinase"
+  ]
+}

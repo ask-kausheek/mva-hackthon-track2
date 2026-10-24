@@ -1,0 +1,25 @@
+{
+  "team": "Soul",
+  "scope_weights": {
+    "exact_variant": 1.0,
+    "same_gene_other_variant": 0.6,
+    "same_gene_nonvariant": 0.4,
+    "other_disease": 0.2,
+    "general": 0.1,
+    "regulatory": 0.0
+  },
+  "profiles": {
+    "baseline": {
+      "bridge": 0.5,
+      "functional_rescue": 0.5
+    },
+    "bridge_emphasis": {
+      "bridge": 0.8,
+      "functional_rescue": 0.2
+    },
+    "rescue_emphasis": {
+      "bridge": 0.2,
+      "functional_rescue": 0.8
+    }
+  }
+}

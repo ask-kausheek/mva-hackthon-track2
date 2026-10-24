@@ -1,0 +1,76 @@
+{
+  "longlist": [
+    {
+      "name": "arimoclomol",
+      "axis": "stabilize residual protein (chaperone)",
+      "verdict": "advance",
+      "veto_code": "none",
+      "reason": "Approved product with an HSP70-induction rationale; no direct BUBR1 evidence, so a research hypothesis only.",
+      "first_experiment": "Dose-response BUBR1 immunoblot with mitotic-timing readout in the same patient cells, at or below labelled exposure."
+    },
+    {
+      "name": "niacin",
+      "axis": "restore abundance (NAD and SIRT2)",
+      "verdict": "advance",
+      "veto_code": "none",
+      "reason": "Approved prescription product that feeds NAD; the SIRT2 to BUBR1 link comes from non-drug experiments.",
+      "first_experiment": "Intracellular NAD+ and BUBR1 abundance in patient cells at a concentration achievable with labelled dosing."
+    },
+    {
+      "name": "gentamicin",
+      "axis": "readthrough of the premature stop",
+      "verdict": "hold",
+      "veto_code": "V_TRANSCRIPT_FATE_UNRESOLVED",
+      "reason": "Readthrough needs a surviving transcript; other truncations suggest decay, and the label carries boxed oto- and nephrotoxicity warnings.",
+      "first_experiment": ""
+    },
+    {
+      "name": "paclitaxel",
+      "axis": "selective lethality of aneuploid cells",
+      "verdict": "exclude",
+      "veto_code": "V_CHECKPOINT_WEAKENING",
+      "reason": "A microtubule poison acting on a cell already short of checkpoint function.",
+      "first_experiment": ""
+    },
+    {
+      "name": "barasertib",
+      "axis": "checkpoint kinase inhibition",
+      "verdict": "exclude",
+      "veto_code": "V_CHECKPOINT_WEAKENING",
+      "reason": "Aurora B inhibition shortens mitosis and weakens the checkpoint further.",
+      "first_experiment": ""
+    },
+    {
+      "name": "HSP90 inhibitor class",
+      "axis": "chaperone inhibition",
+      "verdict": "exclude",
+      "veto_code": "V_DIRECTION_UNCERTAIN",
+      "reason": "HSP90 inhibition lowered mutant BUBR1 abundance in cells, the opposite of the goal.",
+      "first_experiment": ""
+    },
+    {
+      "name": "nicotinamide",
+      "axis": "restore abundance (NAD and SIRT2)",
+      "verdict": "exclude",
+      "veto_code": "V_DIRECTION_UNCERTAIN",
+      "reason": "Acting as a sirtuin inhibitor it reduced BubR1 levels in reported cell experiments; not interchangeable with niacin.",
+      "first_experiment": ""
+    },
+    {
+      "name": "everolimus",
+      "axis": "mTOR inhibition",
+      "verdict": "hold",
+      "veto_code": "V_PEDIATRIC_TISSUE_HARM",
+      "reason": "Anti-anabolic effects are a concern in a child with growth failure, and the curated sources contain no BUBR1 bridge for it.",
+      "first_experiment": ""
+    },
+    {
+      "name": "NMN supplement",
+      "axis": "restore abundance (NAD and SIRT2)",
+      "verdict": "exclude",
+      "veto_code": "V_NO_APPROVED_PRODUCT",
+      "reason": "Supplement-grade, no approved single-ingredient product; mouse abundance data do not transfer to niacin.",
+      "first_experiment": ""
+    }
+  ]
+}

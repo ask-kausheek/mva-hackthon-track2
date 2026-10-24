@@ -1,0 +1,39 @@
+{
+  "kill_criteria": [
+    {
+      "candidate": "arimoclomol",
+      "measurement": "BUBR1 abundance by immunoblot in patient cells versus untreated, at or below labelled exposure",
+      "threshold": "increase below 1.5-fold across 3 independent replicates",
+      "decision_if_fail": "no-go"
+    },
+    {
+      "candidate": "arimoclomol",
+      "measurement": "Mitotic timing and micronucleus rate in the same cells in which abundance rose",
+      "threshold": "less than 20% improvement versus untreated despite higher abundance",
+      "decision_if_fail": "no-go"
+    },
+    {
+      "candidate": "niacin",
+      "measurement": "Intracellular NAD+ in patient cells at a concentration achievable with labelled dosing",
+      "threshold": "increase below 1.5-fold versus untreated",
+      "decision_if_fail": "defer"
+    },
+    {
+      "candidate": "all",
+      "measurement": "Viability and proliferation of treated versus untreated cells",
+      "threshold": "more than 10% loss of viable cells or any cell-cycle arrest voids an aneuploidy-lowering result",
+      "decision_if_fail": "no-go"
+    }
+  ],
+  "confounds": [
+    "Fewer divisions or cytostasis produce a lower aneuploidy rate without any rescue",
+    "Aneuploid daughter cells die and are lost from the count, leaving survivors that look corrected",
+    "Test concentrations above clinical exposure create a result that cannot translate",
+    "Higher BUBR1 abundance without a checkpoint readout is not functional rescue"
+  ],
+  "weakest_link": {
+    "claim": "The mapped drug acts on BUBR1 abundance or function in this patient's cell type",
+    "why": "No curated source tests either drug on BUBR1 in cells; the bridge rests on other genes, other diseases or non-drug experiments."
+  },
+  "experiment_zero": "Measure BUBR1 protein abundance by immunoblot in the patient's own cells against controls before any drug; if abundance is normal, drop the abundance-restoration hypothesis."
+}

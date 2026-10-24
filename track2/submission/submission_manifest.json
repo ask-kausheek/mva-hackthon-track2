@@ -1,0 +1,18 @@
+{
+  "research_snapshot_id": "c057862d598f59dcc6d2223c88a79cd46c7f532e3bd68e625aefab961ad6ed77",
+  "files_sha256": {
+    "Soul_track2_pitch_script.md": "db234b1fb21cdc82a518dd6037b34fbdc6556b8e9f7e773a994aa050e302125b",
+    "Soul_track2_report.md": "05631f83c5d71908d4231c72172c3242d9b6f7602127334deec9f2680a67cb4d",
+    "Soul_track2_slides.html": "fb1fc86d3c48b5a1f8651d301fa576d1d1d121c192df5b3d703d6df0ba23b261"
+  },
+  "recording_target_seconds": 180,
+  "spoken_word_count": 376,
+  "completion": {
+    "standalone_report": "prepared",
+    "slides_and_script": "prepared_for_user_recording",
+    "recorded_video": "prepared_locally_not_packaged",
+    "github_repository_url": "user_action_required",
+    "hosted_video_url": "user_action_required",
+    "clinician_review": "not_claimed"
+  }
+}

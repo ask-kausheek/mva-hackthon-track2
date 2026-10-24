@@ -1,0 +1,45 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Soul - Track 2 pitch</title><style>
+*{box-sizing:border-box}body{margin:0;background:#091923;color:#f4f7f9;
+font-family:Segoe UI,Arial,sans-serif}header{height:62px;padding:14px 4vw;
+display:flex;justify-content:space-between;align-items:center;color:#82dfbd}
+button{background:#153745;color:#fff;border:1px solid #61808d;border-radius:6px;
+padding:8px 14px;cursor:pointer}main{max-width:1500px;margin:auto}
+.slide{min-height:calc(100vh - 114px);padding:3vh 5vw}
+.label{text-transform:uppercase;letter-spacing:.14em;color:#82dfbd;font-size:18px}
+h1{font-size:clamp(28px,3.3vw,48px);line-height:1.12;margin:18px 0 22px;max-width:1150px}
+li{font-size:clamp(18px,1.7vw,28px);line-height:1.35;margin:12px 0}
+ul{padding-left:28px;max-width:1150px}.refs{font-size:14px;color:#b6c7cf;margin-top:28px}
+a{color:#82dfbd}footer{height:52px;padding:10px 4vw;display:flex;justify-content:space-between;
+font-size:15px;color:#b6c7cf;border-top:1px solid #294554}.status{color:#ffd27b}
+table{border-collapse:collapse;width:100%;font-size:18px;margin:16px 0}
+td,th{padding:9px;text-align:left;border-bottom:1px solid #31515e}
+th{color:#82dfbd}.credits{font-size:15px;line-height:1.45;color:#b6c7cf;max-width:1200px;
+border-top:1px solid #31515e;margin-top:20px;padding-top:14px}
+#error{color:#ffb1a8;padding:0 4vw}
+@media print{body{background:white;color:black}header,footer,button,#error{display:none}
+.slide,.slide[hidden]{display:block!important;break-after:page;min-height:90vh}
+a,.label,th,.credits{color:#153745}}
+</style></head><body><header><strong>Soul | MVA Hackathon 2026</strong><nav><button id="previous" aria-label="Previous slide">Back</button> <button id="next" aria-label="Next slide">Next</button> <button id="fullscreen">Fullscreen</button></nav></header><p id="error" role="alert"></p><main><section class="slide" aria-label="Slide 1"><p class="label">The research question</p><h1>A working hypothesis, not a prescription</h1><ul><li>Prior Track 1 evidence identifies a putative BUB1B variant pair.</li><li>Can an approved medicine improve residual protein function?</li><li>Normal-cell benefit must not be confused with tumor-cell support.</li></ul><p class="refs">Sources: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2887387/" target="_blank" rel="noreferrer" title="Molecular Causes for BUBR1 Dysfunction in the Human Cancer Predisposition Syndrome Mosaic Variegated Aneuploidy">[R1]</a></p></section><section class="slide" aria-label="Slide 2" hidden><p class="label">Allele-aware mechanism</p><h1>More protein is not necessarily better function</h1><ul><li>Some other BUBR1 missense mutants are unstable but retain function.</li><li>Genetic overexpression restored checkpoint activity in selected models.</li><li>Case-specific transcript fate, residual function and phase remain unresolved.</li></ul><p class="refs">Sources: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2887387/" target="_blank" rel="noreferrer" title="Molecular Causes for BUBR1 Dysfunction in the Human Cancer Predisposition Syndrome Mosaic Variegated Aneuploidy">[R1]</a> | <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/" target="_blank" rel="noreferrer" title="SIRT2 induces the checkpoint kinase BubR1 to increase lifespan">[R2]</a></p></section><section class="slide" aria-label="Slide 3" hidden><p class="label">Reproducible computation</p><h1>Evidence must support each declared step</h1><ul><li>Seven public sources; 20 manually curated claims.</li><li>Required mechanism steps + drug-tested evidence -&gt; weakest-link index.</li><li>Approval, conflicts and safety holds constrain ranking; ties stay tied.</li></ul></section><section class="slide" aria-label="Slide 4" hidden><p class="label">Actual pipeline results</p><h1>Two conditional hypotheses; no drug winner</h1><ul><li>Arimoclomol: indirect chaperone-support hypothesis.</li><li>Prescription niacin: indirect NAD / SIRT2 hypothesis.</li><li>Neither has qualifying drug-mediated BUBR1 functional-rescue evidence.</li></ul><table><thead><tr><th>Research priority</th><th>Hypothesis</th><th>Index / 100</th></tr></thead><tbody><tr><td>1 (tied)</td><td>Arimoclomol</td><td>10.0</td></tr><tr><td>1 (tied)</td><td>Prescription nicotinic acid</td><td>10.0</td></tr><tr><td>Held</td><td>Gentamicin</td><td>Not ranked</td></tr></tbody></table><p class="refs">Sources: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6821533/" target="_blank" rel="noreferrer" title="Heat Shock Protein-based therapy as a potential candidate for treating sphingolipidoses">[R3]</a> | <a href="https://europepmc.org/article/MED/32386566" target="_blank" rel="noreferrer" title="Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy">[R4]</a> | <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/" target="_blank" rel="noreferrer" title="SIRT2 induces the checkpoint kinase BubR1 to increase lifespan">[R2]</a></p></section><section class="slide" aria-label="Slide 5" hidden><p class="label">Sensitivity and falsification</p><h1>Study removal exposes fragility</h1><ul><li>Three weight profiles crossed with four study removals plus the intact corpus.</li><li>Missing indispensable pathway evidence defers the affected hypothesis.</li><li>Proposed follow-up: functional segregation, viability and tumor-context controls.</li></ul></section><section class="slide" aria-label="Slide 6" hidden><p class="label">Contribution and boundaries</p><h1>An auditable route to the next experiment</h1><ul><li>Reusable code, claim-level citations, held alternatives and a machine-checked prompt pack.</li><li>No clinical efficacy, completed experiments or comprehensive drug screen claimed.</li><li>Next: verify the allele mechanism and test the most defensible evidence chain.</li></ul><aside class="credits">This work was made possible through the Hackathon, organized by Sage Bionetworks in partnership with the MVA Society, Hugging Face, and BEACON (The Benchmarking, Evaluation, and Assessment Consortium for Science), with prize sponsorship from AWS and Anthropic. We are deeply grateful to the child and their family who generously contributed their data and their story to advance research into this rare disease. We acknowledge their trust in making this Hackathon possible.</aside></section></main><footer><span class="status">Research hypotheses - not demonstrated treatments</span><span id="progress" aria-live="polite"></span></footer><script>
+const slides = [...document.querySelectorAll('.slide')]; let current = 0;
+function show(n) {
+  current = Math.max(0, Math.min(slides.length - 1, n));
+  slides.forEach((slide, i) => slide.hidden = i !== current);
+  document.getElementById('progress').textContent = `${current + 1} / ${slides.length} | Target: 30 seconds per slide`;
+}
+document.getElementById('next').addEventListener('click', () => show(current + 1));
+document.getElementById('previous').addEventListener('click', () => show(current - 1));
+document.getElementById('fullscreen').addEventListener('click', async () => {
+  try { await document.documentElement.requestFullscreen(); }
+  catch (error) { document.getElementById('error').textContent = 'Fullscreen unavailable. Use your browser fullscreen command.'; }
+});
+document.addEventListener('keydown', event => {
+  if (event.key === 'ArrowRight' || event.key === 'PageDown' || event.key === ' ') {
+    event.preventDefault(); show(current + 1);
+  } else if (event.key === 'ArrowLeft' || event.key === 'PageUp') {
+    event.preventDefault(); show(current - 1);
+  } else if (event.key === 'Home') show(0);
+  else if (event.key === 'End') show(slides.length - 1);
+});
+const requestedSlide = Number(location.hash.slice(1)) - 1;
+show(location.hash && Number.isInteger(requestedSlide) ? requestedSlide : 0);
+</script></body></html>

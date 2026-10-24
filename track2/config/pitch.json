@@ -1,0 +1,84 @@
+{
+  "team": "Soul",
+  "title": "From a variant hypothesis to a testable drug question",
+  "slides": [
+    {
+      "title": "A working hypothesis, not a prescription",
+      "label": "The research question",
+      "seconds": 30,
+      "kind": "standard",
+      "bullets": [
+        "Prior Track 1 evidence identifies a putative BUB1B variant pair.",
+        "Can an approved medicine improve residual protein function?",
+        "Normal-cell benefit must not be confused with tumor-cell support."
+      ],
+      "source_ids": ["bubr1_mva_mechanisms_2010"],
+      "narration": "We are Team Soul. Our Track Two proposal starts from a putative BUB1B variant pair identified in earlier genomic analysis. Rather than claiming that a medicine works, we ask whether an existing approved drug could improve useful residual protein function. Cancer history, renal findings and developmental vulnerability constrain the question. This is a computational research proposal, not treatment advice."
+    },
+    {
+      "title": "More protein is not necessarily better function",
+      "label": "Allele-aware mechanism",
+      "seconds": 30,
+      "kind": "standard",
+      "bullets": [
+        "Some other BUBR1 missense mutants are unstable but retain function.",
+        "Genetic overexpression restored checkpoint activity in selected models.",
+        "Case-specific transcript fate, residual function and phase remain unresolved."
+      ],
+      "source_ids": ["bubr1_mva_mechanisms_2010", "sirt2_bubr1_nad_2014"],
+      "narration": "Published experiments show that some other BUBR1 missense proteins are unstable and can regain checkpoint activity when their abundance is restored. But those experiments used genetic overexpression, not our candidate medicines. Our case alleles were not tested in those studies. Transcript fate, residual function and phase remain unresolved. The proposed direction is restoring checkpoint fidelity, not inhibiting an already compromised checkpoint."
+    },
+    {
+      "title": "Evidence must support each declared step",
+      "label": "Reproducible computation",
+      "seconds": 30,
+      "kind": "standard",
+      "bullets": [
+        "Seven public sources; 20 manually curated claims.",
+        "Required mechanism steps + drug-tested evidence -> weakest-link index.",
+        "Approval, conflicts and safety holds constrain ranking; ties stay tied."
+      ],
+      "source_ids": [],
+      "narration": "Our offline Python workflow connects twenty manually curated claims from seven public sources. It separates gene mechanism, drug-tested evidence, functional rescue and safety. Each declared mechanism step must retain support. The weakest link controls the evidence bridge, and repeated citations add no points. Approval and safety gates precede ranking. Track One findings are carried forward manually; this is not automatic genome-to-drug discovery."
+    },
+    {
+      "title": "Two conditional hypotheses; no drug winner",
+      "label": "Actual pipeline results",
+      "seconds": 30,
+      "kind": "results",
+      "bullets": [
+        "Arimoclomol: indirect chaperone-support hypothesis.",
+        "Prescription niacin: indirect NAD / SIRT2 hypothesis.",
+        "Neither has qualifying drug-mediated BUBR1 functional-rescue evidence."
+      ],
+      "source_ids": ["hsp_sphingolipidoses_2016", "niacin_human_nad_myopathy_2020", "sirt2_bubr1_nad_2014"],
+      "narration": "Arimoclomol and prescription niacin tie at an evidence index of ten out of one hundred. This is a heuristic, not a ten percent chance of success. Arimoclomol's supporting drug experiments concern another disease. The BUBR1 pathway study tested NMN and genetic SIRT2 manipulation, not niacin. Neither medicine has demonstrated functional rescue here. Gentamicin remains held because its unsupported bridge and labeled toxicity warrant caution."
+    },
+    {
+      "title": "Study removal exposes fragility",
+      "label": "Sensitivity and falsification",
+      "seconds": 30,
+      "kind": "standard",
+      "bullets": [
+        "Three weight profiles crossed with four study removals plus the intact corpus.",
+        "Missing indispensable pathway evidence defers the affected hypothesis.",
+        "Proposed follow-up: functional segregation, viability and tumor-context controls."
+      ],
+      "source_ids": [],
+      "narration": "We tested three weight profiles and removed each primary study in turn. Losing an indispensable pathway study defers the affected hypothesis rather than leaving a confident ranking. Proposed follow-up must measure chromosome segregation and checkpoint function alongside viability and proliferation. More protein, slower division, or selective death of abnormal cells is not enough. Normal-cell rescue and tumor effects require separate evaluation."
+    },
+    {
+      "title": "An auditable route to the next experiment",
+      "label": "Contribution and boundaries",
+      "seconds": 30,
+      "kind": "credits",
+      "bullets": [
+        "Reusable code, claim-level citations, held alternatives and a machine-checked prompt pack.",
+        "No clinical efficacy, completed experiments or comprehensive drug screen claimed.",
+        "Next: verify the allele mechanism and test the most defensible evidence chain."
+      ],
+      "source_ids": [],
+      "narration": "Our contribution is an auditable way to prioritize questions, not a new biological discovery or prescription. The code and four reusable prompts are shared, with a checker that rejects unsupported model answers; no cross-model benchmark exists yet. Each new case needs fresh curation, and no experiments or clinician review are claimed. Next is verifying the allele mechanism. We thank the organizers and the participating family for enabling this research."
+    }
+  ]
+}

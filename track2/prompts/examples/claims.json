@@ -1,0 +1,11 @@
+[
+  {
+    "claim_id": "sirt2_overexpression_lifespan_hypomorph_example",
+    "drug_ids": ["niacin"],
+    "source_id": "sirt2_bubr1_nad_2014",
+    "dimension": "functional_rescue",
+    "relation": "context",
+    "scope": "same_gene_nonvariant",
+    "summary": "Per the paper, SIRT2 overexpression extended lifespan in BubR1 hypomorphic mice. This is genetic overexpression in a mouse model, not niacin treatment, and is not human or exact-variant evidence."
+  }
+]
